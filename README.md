@@ -98,7 +98,11 @@ Usage
 #### Requirements
 * Coin daemon(s) (find the coin's repo and build latest version from source)
 * [Node.js](http://nodejs.org/) v11.0+
-  * For Ubuntu: 
+  * For Ubuntu:
+ 
+  * sudo apt install python2.7
+sudo apt install python-is-python2
+  * версия nodejs нужна 11.15.0
  ```
   curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash
   sudo apt-get install -y nodejs
@@ -159,6 +163,7 @@ cd pool
 
 npm update
 ```
+npm rebuild
 
 #### 2) Configuration
 
