@@ -108,7 +108,7 @@ sudo apt install python-is-python2
   sudo apt-get install -y nodejs
  ```
   * Or use NVM(https://github.com/creationix/nvm) for debian/ubuntu.
-
+nvm use 11.15.0
 
 * [Redis](http://redis.io/) key-value store v2.6+ 
   * For Ubuntu: 
