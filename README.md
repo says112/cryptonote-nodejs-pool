@@ -153,7 +153,14 @@ sudo su - your-user
 ```
 
 #### 1) Downloading & Installing
-
+git clone https://github.com/dvandal/cryptonote-nodejs-pool
+cd cryptonote-nodejs-pool/
+rm package.json
+wget https://raw.githubusercontent.com/dynexcoin/cryptonote-nodejs-pool/master/package.json
+nvm use v11
+npm update
+если ошибка, то
+npm rebuild
 
 Clone the repository and run `npm update` for all the dependencies to be installed:
 
